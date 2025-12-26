@@ -25,4 +25,7 @@
              The notebook is structured with clear markdown explanations for each step.
              
              This is the first step in the project workflow, preparing the data for further analysis and modeling.
-  
+             
+      - Guidelines to run the notebook
+      
+             - Check the paths of the files and modify accordingly before executing
