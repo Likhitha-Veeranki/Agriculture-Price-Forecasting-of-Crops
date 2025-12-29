@@ -1,0 +1,5 @@
+Model[[:space:]]Building/Final[[:space:]]Model/*.pkl filter=lfs diff=lfs merge=lfs -text
+Model[[:space:]]Building/data/*.csv filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+Model[[:space:]]Building/Final[[:space:]]Model/random_forest_model.pkl filter=lfs diff=lfs merge=lfs -text
