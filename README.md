@@ -74,3 +74,36 @@
 - **Guidelines to run the notebooks:**  
   - Ensure all required libraries are installed 
   - Check file paths and modify if necessary before executing the notebooks  
+
+
+---
+
+## 🔌 API Integration
+
+- **Module:** `api/` (Backend Service)
+
+- **Description:**  
+  This module provides a RESTful API to serve agricultural commodity price predictions to the frontend application. The API performs the following tasks:  
+  - Accepts user inputs such as **State, District, Market, Commodity, and Date**  
+  - Applies the same preprocessing pipeline used during model training  
+  - Loads the trained **Random Forest model** for inference  
+  - Generates and returns predicted crop prices in a structured JSON format  
+
+- **Endpoints:**  
+  - `POST /predict`  
+    - **Input:** State, District, Market, Commodity, Date  
+    - **Output:** Predicted price value for the selected crop and market  
+
+- **Output:**  
+  - JSON response containing the predicted commodity price  
+  - Informative error messages for invalid inputs or unsupported combinations  
+
+- **Note:**  
+  - The API acts as a bridge between the **Flutter frontend** and the **machine learning models**  
+  - It ensures consistency by using the same feature engineering and preprocessing logic as model training  
+  - For certain combinations, predictions are not returned when historical data is insufficient  
+
+- **Guidelines to run the API:**  
+  - Install required dependencies listed in `requirements.txt`  
+  - Ensure the trained model files (`.pkl`) are available in the specified directory  
+  - Run the API server using the provided entry file (e.g., `app.py` or `main.py`)
