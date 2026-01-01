@@ -1,3 +1,23 @@
+## 🧩 Problem Statement
+
+In India, agricultural commodity prices fluctuate across markets due to demand–supply variations, seasonality, and regional factors. While the **Minimum Support Price (MSP)** provides a baseline for farmer protection, actual market prices often deviate from MSP, making short-term decision-making difficult for farmers and traders.
+
+Most existing agricultural price prediction systems rely on generic or limited datasets, ignore market-level variations, fail to define price units clearly, or continue to provide predictions even when historical data is insufficient. Such limitations reduce the reliability and real-world usability of these systems.
+
+This project addresses these challenges by developing a **transparent, market-specific, MSP-aware agricultural price forecasting system** using real AGMARK data.
+
+
+## 🎯 Aims and Objectives (Project Differentiation)
+
+This project aims to distinguish itself from existing agricultural price prediction systems by focusing on the following key aspects:
+
+- Use of **real AGMARK (Agmarket) market data** instead of synthetic or generic datasets  
+- **Market–commodity specific forecasting** to capture localized price behavior  
+- **Short-term price predictions** suitable for real mandi-level decisions  
+- Clear and consistent **price unit interpretation (per quintal)**  
+- Analysis of predicted prices **in relation to the Minimum Support Price (MSP)**  
+- Evaluation using **multiple advanced models** such as Random
+
 # Agriculture-Price-Forecasting-of-Crops
 
 ## 📂 Data Cleaning
