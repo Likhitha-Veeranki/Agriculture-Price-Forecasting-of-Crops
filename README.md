@@ -78,7 +78,7 @@
 
 ---
 
-## 🔌 API Integration
+## 📂 API Integration
 
 - **Module:** `api/` (Backend Service)
 
@@ -107,3 +107,21 @@
   - Install required dependencies listed in `requirements.txt`  
   - Ensure the trained model files (`.pkl`) are available in the specified directory  
   - Run the API server using the provided entry file (e.g., `app.py` or `main.py`)
+  
+  
+  ---
+  
+  ##📂 Frontend (User Interface)
+
+- **Framework:** Flutter  
+- **Architecture:** MVC pattern  
+
+###  Description  
+The frontend provides a clean and responsive user interface for the crop price forecasting system. It allows users to select crops, markets, and dates to view predicted prices in an easy-to-understand format.
+
+###  Features  
+- Crop and market selection using dropdowns  
+- Predicted price display in **list** and **graph** views  
+- Interactive charts for trend analysis  
+- Mobile-friendly and responsive UI  
+- Handles cases with insufficient or unavailable data gracefully
