@@ -78,7 +78,7 @@
 
 ---
 
-## 🔌 API Integration
+## 📂 API Integration
 
 - **Module:** `api/` (Backend Service)
 
@@ -111,7 +111,7 @@
   
   ---
   
-  ##  Frontend (User Interface)
+  ##📂 Frontend (User Interface)
 
 - **Framework:** Flutter  
 - **Architecture:** MVC pattern  
